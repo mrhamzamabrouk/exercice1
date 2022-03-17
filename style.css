@@ -1,0 +1,85 @@
+body {
+  font-size: 15px;
+}
+
+.container-table {
+  margin: auto;
+  height: auto;
+  margin-top: 3vh;
+  width: 70%;
+  border: 0.2px solid grey;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-color:rgba(0, 0, 0, 0.03);
+  border-radius:10px;
+  border-style:solid;
+  border-width:1px;
+  padding:0.15px 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.03), 0 6px 6px 0 rgba(0, 0, 0, 0.02);
+}
+
+.center {
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.container-tab button {
+  border-radius:10px;
+  border-style:solid;
+  border-color: orange;
+  padding: 13px 24px;
+  background-color: orange;
+  color: white;
+  float: right;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+.span-statut {
+  border-radius:6px;
+  border-style:solid;
+  border-width:1px;
+  font-size: 12px; padding: 4px 15px;
+  background-color: green;
+  color:white;
+  width:auto;
+  height: auto;
+}
+
+.input-form {
+  border-radius:6px;
+  border-style:solid;
+  border-width:1px;
+  border-color:rgba(0, 0, 0, 0.2);
+  height: 3.3vh;
+  width: 35vh;
+}
+
+label {
+ opacity: 60%;
+ font-size: 15px
+}
+
+.lbl{
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.clmn {
+  padding-right: 70px;
+  float: left
+}
+
+i {
+  cursor: pointer
+}
+
+.icn {
+  background-color: white;
+  border-width: 0px 
+}
+
+

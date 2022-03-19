@@ -120,7 +120,13 @@ function addUser() {
                 <td><div value='Delete' onclick="delUser(this)"><i class="bi bi-trash"></i></div></td>
               </tr>` ;
 
+            
   tablee.innerHTML += roww;
+
+  
+    modal.style.display = "none";
+  
+
 
 
 document.getElementById("fname").value = "";
@@ -129,6 +135,7 @@ document.getElementById("username").value = "";
 document.getElementById("regnum").value = "";
 document.getElementById("crdate").value = new Date().toISOString();;
     
+
      
   
 }
